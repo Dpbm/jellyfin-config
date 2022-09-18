@@ -1,0 +1,4 @@
+#!/bin/bash
+
+ID=$(docker container ls -a | grep 'jellyfin' | awk '{print $1}')
+docker start $ID

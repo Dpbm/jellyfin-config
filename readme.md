@@ -14,3 +14,12 @@ To run use:
 
 Move your files to `$HOME/jellyfin-medias/media/` to list on platform
 
+You can use the start and stop scripts too. To use this do:
+```
+chmod +x start_jellyfin
+chmod +x stop_jellyfin
+```
+
+then add this folder to your $PATH `PATH=/path/to/this/folder:$PATH`
+
+
