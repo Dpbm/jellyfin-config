@@ -1,0 +1,9 @@
+#!/bin/bash
+docker pull jellyfin/jellyfin
+
+mkdir -p $HOME/jellyfin-medias/media
+mkdir -p $HOME/jellyfin-medias/media2
+mkdir -p $HOME/jellyfin-config
+mkdir -p $HOME/jellyfin-cache
+
+docker compose up -d
